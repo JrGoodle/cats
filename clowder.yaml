@@ -4,8 +4,10 @@ defaults:
     groups: [cats]
 
 remotes:
-    - name: github
+    - name: github-ssh
       url: ssh://git@github.com
+    - name: github
+      url: https://github.com
     # - name: heroku
     #   url: https://git.heroku.com
 
