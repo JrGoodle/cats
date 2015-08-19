@@ -1,7 +1,7 @@
 defaults:
     ref: refs/heads/master
     remote: github
-    groups: [cats]
+    groups: [black-cats]
 
 remotes:
     - name: github-ssh
@@ -18,6 +18,8 @@ groups:
           path: mu
         - name: jrgoodle/duke
           path: duke
+    - name: black-cats
+      projects:
         - name: jrgoodle/kit
           path: black-cats/kit
         - name: jrgoodle/kishka
