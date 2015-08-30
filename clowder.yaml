@@ -1,7 +1,6 @@
 defaults:
     ref: refs/heads/master
     remote: github
-    groups: [black-cats]
 
 remotes:
     - name: github-ssh
