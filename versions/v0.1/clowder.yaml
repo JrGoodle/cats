@@ -1,38 +1,37 @@
 defaults:
-  groups:
-  - black-cats
   ref: refs/heads/master
-  remote: github
+  remote: origin
+  source: github
 groups:
 - name: cats
   projects:
-  - name: jrgoodle/mu
-    path: mu
-    ref: cddce39214a1ae20266d9ee36966de67438625d1
-    remote: github
   - name: jrgoodle/duke
     path: duke
     ref: 7083e8840e1bb972b7664cfa20bbd7a25f004018
     remote: github
+  - name: jrgoodle/mu
+    path: mu
+    ref: cddce39214a1ae20266d9ee36966de67438625d1
+    remote: github
 - name: black-cats
   projects:
-  - name: jrgoodle/kit
-    path: black-cats/kit
-    ref: eebdfad06b30f49d9ae9667c5fb35a33959d6501
+  - name: jrgoodle/jules
+    path: black-cats/jules
+    ref: 7b725e4953281347594585b8d1d02a3561201f72
     remote: github
   - name: jrgoodle/kishka
     path: black-cats/kishka
     ref: c489dfafe1e0adb7a070e4eedfc20f1c53ecaeb9
     remote: github
-  - name: jrgoodle/jules
-    path: black-cats/jules
-    ref: 7b725e4953281347594585b8d1d02a3561201f72
+  - name: jrgoodle/kit
+    path: black-cats/kit
+    ref: da5c3d32ec2c00aba4a9f7d822cce2c727f7f5dd
     remote: github
   - name: jrgoodle/sasha
     path: black-cats/sasha
     ref: 7aabeb1050158438a28e5d558ac96bafbab9e8ee
     remote: github
-remotes:
+sources:
 - name: github-ssh
   url: ssh://git@github.com
 - name: github
