@@ -1,8 +1,9 @@
 defaults:
     ref: refs/heads/master
-    remote: github
+    remote: origin
+    source: github
 
-remotes:
+sources:
     - name: github-ssh
       url: ssh://git@github.com
     - name: github
