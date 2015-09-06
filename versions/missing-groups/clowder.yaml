@@ -1,0 +1,44 @@
+defaults:
+  ref: refs/heads/master
+  remote: origin
+  source: github
+groups:
+- name: cats
+  projects:
+  - name: jrgoodle/jules
+    path: black-cats/jules
+    ref: 7b725e4953281347594585b8d1d02a3561201f72
+    remote: origin
+    source: github
+  - name: jrgoodle/duke
+    path: duke
+    ref: 7083e8840e1bb972b7664cfa20bbd7a25f004018
+    remote: origin
+    source: github
+  - name: jrgoodle/mu
+    path: mu
+    ref: cddce39214a1ae20266d9ee36966de67438625d1
+    remote: origin
+    source: github
+- name: slavic
+  projects:
+  - name: jrgoodle/kishka
+    path: black-cats/kishka
+    ref: d185e3bff9eaaf6e146d4e09165276cd5c9f31c8
+    remote: origin
+    source: github
+  - name: jrgoodle/kit
+    path: black-cats/kit
+    ref: da5c3d32ec2c00aba4a9f7d822cce2c727f7f5dd
+    remote: origin
+    source: github
+  - name: jrgoodle/sasha
+    path: black-cats/sasha
+    ref: 775979e0b1a7f753131bf16a4794c851c67108d8
+    remote: origin
+    source: github
+sources:
+- name: github-ssh
+  url: ssh://git@github.com
+- name: github
+  url: https://github.com
