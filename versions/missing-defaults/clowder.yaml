@@ -1,0 +1,37 @@
+# defaults:
+#     ref: refs/heads/master
+#     remote: origin
+#     source: github
+
+sources:
+    - name: github-ssh
+      url: ssh://git@github.com
+    - name: github
+      url: https://github.com
+    # - name: heroku
+    #   url: https://git.heroku.com
+
+groups:
+    - name: cats
+      projects:
+        - name: jrgoodle/mu
+          path: mu
+          ref: refs/heads/knead
+        - name: jrgoodle/duke
+          path: duke
+          ref: refs/heads/purr
+    - name: black-cats
+      projects:
+        - name: jrgoodle/kit
+          path: black-cats/kit
+        - name: jrgoodle/kishka
+          path: black-cats/kishka
+        - name: jrgoodle/jules
+          path: black-cats/jules
+        - name: jrgoodle/sasha
+          path: black-cats/sasha
+    # - name: bots
+    #   projects:
+    #     - name: polkabot
+    #       path: polkabot
+    #       remote: heroku
