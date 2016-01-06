@@ -8,6 +8,7 @@ sources:
       url: ssh://git@github.com
     - name: github
       url: https://github.com
+      arg: unknown
     # - name: heroku
     #   url: https://git.heroku.com
 
