@@ -8,8 +8,6 @@ sources:
       url: ssh://git@github.com
     - name: github
       url: https://github.com
-    # - name: heroku
-    #   url: https://git.heroku.com
 
 groups:
     - name: cats
@@ -17,7 +15,7 @@ groups:
         - name: jrgoodle/mu
           path: mu
           ref: refs/heads/knead
-          arg: unknown
+          project_arg: project_value
         - name: jrgoodle/duke
           path: duke
           ref: refs/heads/purr
@@ -31,8 +29,3 @@ groups:
           path: black-cats/jules
         - name: jrgoodle/sasha
           path: black-cats/sasha
-    # - name: bots
-    #   projects:
-    #     - name: polkabot
-    #       path: polkabot
-    #       remote: heroku

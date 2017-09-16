@@ -2,15 +2,13 @@ defaults:
     ref: refs/heads/master
     remote: origin
     source: github
-    arg: unknown
+    defaults_arg: defaults_value
 
 sources:
     - name: github-ssh
       url: ssh://git@github.com
     - name: github
       url: https://github.com
-    # - name: heroku
-    #   url: https://git.heroku.com
 
 groups:
     - name: cats
@@ -31,8 +29,3 @@ groups:
           path: black-cats/jules
         - name: jrgoodle/sasha
           path: black-cats/sasha
-    # - name: bots
-    #   projects:
-    #     - name: polkabot
-    #       path: polkabot
-    #       remote: heroku
