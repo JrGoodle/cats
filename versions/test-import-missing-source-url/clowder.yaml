@@ -1,0 +1,5 @@
+import: default
+
+sources:
+    - name: github-ssh
+    #   url: ssh://git@github.com

@@ -1,5 +1,5 @@
 defaults:
-    ref: refs/tags/v0.01
+    ref: ['foo', 'bar']
     remote: origin
     source: github
 

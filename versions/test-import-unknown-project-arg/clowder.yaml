@@ -1,0 +1,9 @@
+import: default
+
+groups:
+    - name: cats
+      projects:
+        - name: jrgoodle/mu
+          path: mu
+          ref: refs/heads/knead
+          project_arg: project_value

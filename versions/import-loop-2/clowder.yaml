@@ -1,4 +1,0 @@
-import: import-loop-1
-
-defaults:
-    ref: refs/heads/import-version

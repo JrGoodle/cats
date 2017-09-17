@@ -1,0 +1,33 @@
+defaults:
+    ref: refs/heads/master
+    remote: origin
+    source: github
+
+sources:
+    - name: github-ssh
+      url: ssh://git@github.com
+    - name: github
+      url: https://github.com
+
+groups:
+    - name: cats
+      projects:
+        - name: jrgoodle/mu
+          path: mu
+          ref: refs/heads/knead
+        - name: jrgoodle/duke
+          path: duke
+          ref: refs/heads/purr
+          forks:
+            - name: something
+            # - remote: github
+    - name: black-cats
+      projects:
+        - name: jrgoodle/kit
+          path: black-cats/kit
+        - name: jrgoodle/kishka
+          path: black-cats/kishka
+        - name: jrgoodle/jules
+          path: black-cats/jules
+        - name: jrgoodle/sasha
+          path: black-cats/sasha

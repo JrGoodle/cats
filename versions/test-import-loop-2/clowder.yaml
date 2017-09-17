@@ -1,0 +1,4 @@
+import: test-import-loop-1
+
+defaults:
+    ref: refs/heads/import-loop
