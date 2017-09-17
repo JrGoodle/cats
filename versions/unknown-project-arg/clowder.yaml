@@ -15,6 +15,7 @@ groups:
         - name: jrgoodle/mu
           path: mu
           ref: refs/heads/knead
+          project_arg: project_value
         - name: jrgoodle/duke
           path: duke
           ref: refs/heads/purr

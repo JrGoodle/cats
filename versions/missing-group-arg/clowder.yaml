@@ -10,8 +10,8 @@ sources:
       url: https://github.com
 
 groups:
-    - name: cats
-      projects:
+    # - name: cats
+    - projects:
         - name: jrgoodle/mu
           path: mu
           ref: refs/heads/knead

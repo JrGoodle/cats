@@ -8,6 +8,7 @@ sources:
       url: ssh://git@github.com
     - name: github
       url: https://github.com
+      source_arg: source_value
 
 groups:
     - name: cats
