@@ -1,0 +1,8 @@
+import: default
+
+groups:
+    - name: cats
+      projects:
+        - name: jrgoodle/ash
+          path: ash
+          ref: refs/heads/master

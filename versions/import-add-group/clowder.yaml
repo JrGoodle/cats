@@ -1,0 +1,7 @@
+import: default
+
+groups:
+    - name: rip
+      projects:
+        - name: jrgoodle/ash
+          path: ash

@@ -1,0 +1,8 @@
+import: import-recursive-add-group-intermediate
+
+groups:
+    - name: rip
+      projects:
+        - name: jrgoodle/ash
+          path: ash
+          ref: refs/heads/recursive-import

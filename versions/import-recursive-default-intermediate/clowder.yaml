@@ -1,0 +1,4 @@
+import: default
+
+defaults:
+    ref: refs/heads/recursive-import-intermediate
