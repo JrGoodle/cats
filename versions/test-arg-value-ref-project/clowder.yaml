@@ -18,13 +18,11 @@ groups:
         - name: jrgoodle/duke
           path: duke
           ref: refs/heads/purr
-          forks: []
-            # - name: something
-            # - remote: github
     - name: black-cats
       projects:
         - name: jrgoodle/kit
           path: black-cats/kit
+          ref: master
         - name: jrgoodle/kishka
           path: black-cats/kishka
         - name: jrgoodle/jules

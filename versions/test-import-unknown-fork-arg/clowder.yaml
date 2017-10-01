@@ -6,7 +6,7 @@ groups:
         - name: jrgoodle/duke
           path: duke
           ref: refs/heads/purr
-          forks:
-              - name: something/something
-                remote: somewhere
-                fork_arg: fork_value
+          fork:
+              name: something/something
+              remote: somewhere
+              fork_arg: fork_value

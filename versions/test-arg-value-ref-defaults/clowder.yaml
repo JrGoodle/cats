@@ -1,5 +1,5 @@
 defaults:
-    ref: refs/heads/master
+    ref: master
     remote: origin
     source: github
 
@@ -18,9 +18,6 @@ groups:
         - name: jrgoodle/duke
           path: duke
           ref: refs/heads/purr
-          forks: something
-            #   - name: something/something
-            #   - remote: github
     - name: black-cats
       projects:
         - name: jrgoodle/kit

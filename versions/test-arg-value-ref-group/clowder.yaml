@@ -18,11 +18,8 @@ groups:
         - name: jrgoodle/duke
           path: duke
           ref: refs/heads/purr
-          fork:
-              name: something
-              remote: somewhere
-              fork_arg: fork_value
     - name: black-cats
+      ref: master
       projects:
         - name: jrgoodle/kit
           path: black-cats/kit
