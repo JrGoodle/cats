@@ -2,6 +2,7 @@ defaults:
   ref: refs/heads/master
   remote: origin
   source: github
+  protocol: https
 groups:
 - name: cats
   projects:
@@ -38,7 +39,5 @@ groups:
     remote: origin
     source: github
 sources:
-- name: github-ssh
-  url: ssh://git@github.com
-- name: github
-  url: https://github.com
+    - name: github
+      url: github.com

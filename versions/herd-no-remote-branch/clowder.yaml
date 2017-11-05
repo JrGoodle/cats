@@ -1,13 +1,12 @@
 defaults:
     ref: refs/heads/test-herd-no-remote-branch
     remote: origin
+    protocol: https
     source: github
 
 sources:
-    - name: github-ssh
-      url: ssh://git@github.com
     - name: github
-      url: https://github.com
+      url: github.com
 
 groups:
     - name: cats

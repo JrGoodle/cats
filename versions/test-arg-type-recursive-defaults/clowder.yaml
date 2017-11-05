@@ -3,12 +3,11 @@ defaults:
     remote: origin
     source: github
     recursive: something
+    protocol: https
 
 sources:
-    - name: github-ssh
-      url: ssh://git@github.com
     - name: github
-      url: https://github.com
+      url: github.com
 
 groups:
     - name: cats

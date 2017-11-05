@@ -1,13 +1,12 @@
 defaults:
     ref: refs/heads/missing-branch
+    protocol: https
     remote: origin
     source: github
 
 sources:
-    - name: github-ssh
-      url: ssh://git@github.com
     - name: github
-      url: https://github.com
+      url: github.com
 
 groups:
     - name: cats
