@@ -18,8 +18,8 @@ groups:
     source: github
 - name: black-cats
   projects:
-  - name: jrgoodle/jules
-    path: black-cats/jules
+  - name: jrgoodle/june
+    path: black-cats/june
     ref: 7b725e4953281347594585b8d1d02a3561201f72
     remote: origin
     source: github
