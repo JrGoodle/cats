@@ -1,5 +1,0 @@
-import: default
-
-sources:
-    - name: github
-    #   url: github.com

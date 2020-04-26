@@ -1,4 +1,0 @@
-import: ['foo', 'bar']
-
-defaults:
-    ref: refs/heads/something

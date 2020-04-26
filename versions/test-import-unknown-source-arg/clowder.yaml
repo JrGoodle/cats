@@ -1,6 +1,0 @@
-import: default
-
-sources:
-    - name: github
-      url: github.com
-      source_arg: source_value

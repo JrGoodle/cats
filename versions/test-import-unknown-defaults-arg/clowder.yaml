@@ -1,4 +1,0 @@
-import: default
-
-defaults:
-    defaults_arg: defaults_value

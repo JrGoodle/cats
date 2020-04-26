@@ -1,4 +1,0 @@
-import: missing-import
-
-defaults:
-    ref: refs/heads/import-missing
