@@ -1,8 +1,0 @@
-import: import-recursive-add-project-to-group-intermediate
-
-groups:
-    - name: cats
-      projects:
-        - name: jrgoodle/ash
-          path: ash
-          ref: refs/heads/recursive-import

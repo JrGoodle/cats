@@ -1,4 +1,0 @@
-import: default
-
-defaults:
-    ref: refs/heads/import-default

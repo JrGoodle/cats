@@ -1,4 +1,0 @@
-import: import-default
-
-defaults:
-    ref: refs/heads/import-version

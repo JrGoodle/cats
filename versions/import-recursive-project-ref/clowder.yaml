@@ -1,8 +1,0 @@
-import: import-recursive-project-ref-intermediate
-
-groups:
-    - name: cats
-      projects:
-        - name: jrgoodle/mu
-          path: mu
-          ref: refs/heads/recursive-import

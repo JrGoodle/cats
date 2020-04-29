@@ -1,5 +1,0 @@
-import: default
-
-groups:
-    - name: black-cats
-      ref: refs/heads/import-group-branch
