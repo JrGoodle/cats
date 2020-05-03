@@ -1,29 +1,32 @@
 defaults:
-    ref: refs/heads/master
-    remote: origin
-    source: github
-    protocol: https
+  ref: refs/heads/master
+  remote: origin
+  source: github
+  protocol: https
 
 sources:
-    - name: github
-      url: github.com
+  - name: github
+    url: github.com
 
-groups:
-    - name: cats
-      projects:
-        - name: jrgoodle/mu
-          path: mu
-          ref: refs/heads/submodules
-        - name: jrgoodle/duke
-          path: duke
-          ref: refs/heads/purr
-    - name: black-cats
-      projects:
-        - name: jrgoodle/kit
-          path: black-cats/kit
-        - name: jrgoodle/kishka
-          path: black-cats/kishka
-        - name: jrgoodle/june
-          path: black-cats/june
-        - name: jrgoodle/sasha
-          path: black-cats/sasha
+projects:
+  - name: jrgoodle/mu
+    path: mu
+    ref: refs/heads/knead
+    groups: [cats]
+  - name: jrgoodle/duke
+    path: duke
+    ref: refs/heads/purr
+    groups: [cats]
+  - name: jrgoodle/kit
+    path: black-cats/kit
+    groups: [black-cats]
+  - name: jrgoodle/kishka
+    path: black-cats/kishka
+    groups: [black-cats]
+  - name: jrgoodle/june
+    path: black-cats/june
+    groups: [black-cats]
+  - name: jrgoodle/sasha
+    path: black-cats/sasha
+    groups: [black-cats]
+

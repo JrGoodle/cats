@@ -1,27 +1,29 @@
 defaults:
-    ref: refs/heads/test-herd-existing-remote-branch
-    remote: origin
-    protocol: https
-    source: github
+  ref: refs/heads/test-herd-existing-remote-branch
+  remote: origin
+  protocol: https
+  source: github
 
 sources:
-    - name: github
-      url: github.com
+  - name: github
+    url: github.com
 
-groups:
-    - name: cats
-      projects:
-        - name: jrgoodle/mu
-          path: mu
-        - name: jrgoodle/duke
-          path: duke
-    - name: black-cats
-      projects:
-        - name: jrgoodle/kit
-          path: black-cats/kit
-        - name: jrgoodle/kishka
-          path: black-cats/kishka
-        - name: jrgoodle/june
-          path: black-cats/june
-        - name: jrgoodle/sasha
-          path: black-cats/sasha
+projects:
+  - name: jrgoodle/mu
+    path: mu
+    groups: [cats]
+  - name: jrgoodle/duke
+    path: duke
+    groups: [cats]
+  - name: jrgoodle/kit
+    path: black-cats/kit
+    groups: [black-cats]
+  - name: jrgoodle/kishka
+    path: black-cats/kishka
+    groups: [black-cats]
+  - name: jrgoodle/june
+    path: black-cats/june
+    groups: [black-cats]
+  - name: jrgoodle/sasha
+    path: black-cats/sasha
+    groups: [black-cats]
