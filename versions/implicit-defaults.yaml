@@ -1,0 +1,29 @@
+defaults:
+  source: github
+  protocol: https
+
+sources:
+  - name: github
+    url: github.com
+
+projects:
+  - name: jrgoodle/mu
+    path: mu
+    ref: refs/heads/knead
+    groups: [cats]
+  - name: jrgoodle/duke
+    path: duke
+    ref: refs/heads/purr
+    groups: [cats]
+  - name: jrgoodle/kit
+    path: black-cats/kit
+    groups: [black-cats]
+  - name: jrgoodle/kishka
+    path: black-cats/kishka
+    groups: [black-cats]
+  - name: jrgoodle/june
+    path: black-cats/june
+    groups: [black-cats]
+  - name: jrgoodle/sasha
+    path: black-cats/sasha
+    groups: [black-cats]
