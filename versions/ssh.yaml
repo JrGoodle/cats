@@ -1,5 +1,5 @@
 defaults:
-  ref: refs/heads/master
+  branch: master
   remote: origin
   source: github
   protocol: ssh
@@ -11,11 +11,11 @@ sources:
 projects:
   - name: jrgoodle/mu
     path: mu
-    ref: refs/heads/knead
+    branch: knead
     groups: [cats]
   - name: jrgoodle/duke
     path: duke
-    ref: refs/heads/purr
+    branch: purr
     groups: [cats]
   - name: jrgoodle/kit
     path: black-cats/kit

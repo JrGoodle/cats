@@ -1,5 +1,5 @@
 defaults:
-  ref: refs/heads/test-herd-existing-remote-branch
+  branch: test-herd-existing-remote-branch
   remote: origin
   protocol: https
   source: github

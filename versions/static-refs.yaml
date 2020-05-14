@@ -1,5 +1,5 @@
 defaults:
-  ref: refs/heads/master
+  branch: master
   remote: origin
   source: github
   protocol: https
