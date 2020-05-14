@@ -11,37 +11,37 @@ sources:
 projects:
   - name: jrgoodle/duke
     path: duke
-    ref: 7083e8840e1bb972b7664cfa20bbd7a25f004018
+    commit: 7083e8840e1bb972b7664cfa20bbd7a25f004018
     remote: origin
     source: github
     groups: [cats]
   - name: jrgoodle/mu
     path: mu
-    ref: cddce39214a1ae20266d9ee36966de67438625d1
+    commit: cddce39214a1ae20266d9ee36966de67438625d1
     remote: origin
     source: github
     groups: [cats]
   - name: jrgoodle/june
     path: black-cats/june
-    ref: 7b725e4953281347594585b8d1d02a3561201f72
+    commit: 7b725e4953281347594585b8d1d02a3561201f72
     remote: origin
     source: github
     groups: [black-cats]
   - name: jrgoodle/kishka
     path: black-cats/kishka
-    ref: d185e3bff9eaaf6e146d4e09165276cd5c9f31c8
+    commit: d185e3bff9eaaf6e146d4e09165276cd5c9f31c8
     remote: origin
     source: github
     groups: [black-cats]
   - name: jrgoodle/kit
     path: black-cats/kit
-    ref: f2e20031ddce5cb097105f4d8ccbc77f4ac20709
+    commit: f2e20031ddce5cb097105f4d8ccbc77f4ac20709
     remote: origin
     source: github
     groups: [black-cats]
   - name: jrgoodle/sasha
     path: black-cats/sasha
-    ref: 775979e0b1a7f753131bf16a4794c851c67108d8
+    commit: 775979e0b1a7f753131bf16a4794c851c67108d8
     remote: origin
     source: github
     groups: [black-cats]
