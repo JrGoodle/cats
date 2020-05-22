@@ -1,3 +1,5 @@
+name: cats-implicit-paths-test
+
 defaults:
   branch: master
   remote: origin

@@ -1,3 +1,5 @@
+name: cats-default-test
+
 defaults:
   branch: master
   remote: origin

@@ -1,3 +1,5 @@
+name: cats-herd-existing-remote-branch-test
+
 defaults:
   branch: test-herd-existing-remote-branch
   remote: origin

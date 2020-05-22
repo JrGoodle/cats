@@ -1,3 +1,5 @@
+name: cats-static-refs-test
+
 defaults:
   branch: master
   remote: origin

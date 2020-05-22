@@ -1,3 +1,5 @@
+name: cats-v0.1-test
+
 defaults:
   branch: master
   remote: origin

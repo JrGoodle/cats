@@ -1,3 +1,5 @@
+name: cats-tags-test
+
 defaults:
   tag: v0.01
   remote: origin

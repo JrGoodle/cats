@@ -1,3 +1,5 @@
+name: cats-lfs-true-test
+
 defaults:
   source: github
   protocol: https

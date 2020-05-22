@@ -1,3 +1,5 @@
+name: cats-submodules-no-recurse-test
+
 defaults:
   branch: master
   remote: origin
