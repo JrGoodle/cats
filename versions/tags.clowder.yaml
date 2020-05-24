@@ -13,11 +13,11 @@ sources:
 projects:
   - name: jrgoodle/mu
     path: mu
-    branch: knead
+    tag: test-clowder-yaml-tag
     groups: [cats]
   - name: jrgoodle/duke
     path: duke
-    branch: purr
+    tag: purr
     groups: [cats]
   - name: jrgoodle/kit
     path: black-cats/kit
