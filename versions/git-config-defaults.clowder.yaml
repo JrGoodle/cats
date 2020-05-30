@@ -1,0 +1,42 @@
+name: cats-implicit-defaults-test
+
+defaults:
+  source: github
+  protocol: https
+  git:
+    config:
+      alias.something: "!echo \"Run 'git something' alias installed via clowder\"; touch something"
+
+sources:
+  - name: github
+    url: github.com
+
+projects:
+  - name: jrgoodle/mu
+    branch: knead
+    groups: [cats]
+    git:
+      config:
+        alias.something: null
+  - name: jrgoodle/duke
+    branch: purr
+    groups: [cats]
+    git:
+      config:
+        alias.something-else: "!echo \"Run 'git something-else' alias installed via clowder\"; touch something-else"
+  - name: jrgoodle/kit
+    path: black-cats/kit
+    groups: [black-cats]
+    git:
+      config:
+        alias.something: null
+        alias.something-else: "!echo \"Run 'git something-else' alias installed via clowder\"; touch something-else"
+  - name: jrgoodle/kishka
+    path: black-cats/kishka
+    groups: [black-cats]
+  - name: jrgoodle/june
+    path: black-cats/june
+    groups: [black-cats]
+  - name: jrgoodle/sasha
+    path: black-cats/sasha
+    groups: [black-cats]
