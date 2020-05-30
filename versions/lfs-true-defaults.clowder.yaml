@@ -3,7 +3,8 @@ name: cats-lfs-true-defaults-test
 defaults:
   source: github
   protocol: https
-  lfs: true
+  git:
+    lfs: true
 
 sources:
   - name: github

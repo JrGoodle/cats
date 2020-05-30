@@ -12,7 +12,8 @@ projects:
   - name: jrgoodle/mu
     branch: lfs
     groups: [cats]
-    lfs: true
+    git:
+      lfs: true
   - name: jrgoodle/duke
     branch: purr
     groups: [cats]

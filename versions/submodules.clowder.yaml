@@ -14,7 +14,8 @@ projects:
   - name: jrgoodle/mu
     path: mu
     branch: submodules
-    recursive: true
+    git:
+      recursive: true
     groups: [cats]
   - name: jrgoodle/duke
     path: duke
