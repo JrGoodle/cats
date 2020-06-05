@@ -25,7 +25,7 @@ projects:
     groups: [cats]
   - name: jrgoodle/june
     path: black-cats/june
-    commit: 7b725e4953281347594585b8d1d02a3561201f72
+    commit: b6e1316cc62cb2ba18fa982fc3d67ef4408c8bfd
     remote: origin
     source: github
     groups: [black-cats]
