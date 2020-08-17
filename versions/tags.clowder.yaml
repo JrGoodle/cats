@@ -7,7 +7,7 @@ defaults:
   protocol: https
 
 sources:
-  - name: github
+  github:
     url: github.com
 
 projects:

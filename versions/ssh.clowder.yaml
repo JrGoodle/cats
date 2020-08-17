@@ -7,7 +7,7 @@ defaults:
   protocol: ssh
 
 sources:
-  - name: github
+  github:
     url: github.com
 
 projects:
@@ -31,4 +31,3 @@ projects:
   - name: jrgoodle/sasha
     path: black-cats/sasha
     groups: [black-cats]
-

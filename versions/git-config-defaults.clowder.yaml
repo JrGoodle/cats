@@ -8,7 +8,7 @@ defaults:
       alias.something: "!echo \"Run 'git something' alias installed via clowder\"; touch something"
 
 sources:
-  - name: github
+  github:
     url: github.com
 
 projects:

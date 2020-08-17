@@ -7,7 +7,7 @@ defaults:
   source: github
 
 sources:
-  - name: github
+  github:
     url: github.com
 
 projects:
