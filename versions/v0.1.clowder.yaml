@@ -10,7 +10,7 @@ sources:
   github:
     url: github.com
 
-projects:
+clowder:
   - name: jrgoodle/duke
     path: duke
     commit: 7083e8840e1bb972b7664cfa20bbd7a25f004018

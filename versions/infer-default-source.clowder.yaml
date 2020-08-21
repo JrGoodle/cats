@@ -7,7 +7,7 @@ sources:
   github:
     url: github.com
 
-projects:
+clowder:
   - name: jrgoodle/mu
     path: mu
     branch: knead

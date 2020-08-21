@@ -3,7 +3,7 @@ name: cats-default-test
 defaults:
   protocol: https
 
-projects:
+clowder:
   - name: jrgoodle/mu
     path: mu
     branch: knead

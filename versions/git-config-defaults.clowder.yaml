@@ -11,7 +11,7 @@ sources:
   github:
     url: github.com
 
-projects:
+clowder:
   - name: jrgoodle/mu
     branch: knead
     groups: [cats]

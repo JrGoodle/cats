@@ -10,7 +10,7 @@ sources:
   github:
     url: github.com
 
-projects:
+clowder:
   - name: jrgoodle/mu
     path: mu
     tag: test-clowder-yaml-tag

@@ -8,7 +8,7 @@ sources:
   github:
     url: github.com
 
-projects:
+clowder:
   - name: jrgoodle/mu
     branch: lfs
     groups: [cats]
