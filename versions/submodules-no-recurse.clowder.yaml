@@ -13,7 +13,7 @@ sources:
 clowder:
   - name: jrgoodle/mu
     path: mu
-    branch: knead
+    branch: submodules
     groups: [cats]
   - name: jrgoodle/duke
     path: duke

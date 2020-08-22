@@ -15,7 +15,7 @@ clowder:
     path: mu
     branch: submodules
     git:
-      recursive: true
+      submodules: true
     groups: [cats]
   - name: jrgoodle/duke
     path: duke
