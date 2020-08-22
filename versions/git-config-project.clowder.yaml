@@ -1,4 +1,4 @@
-name: cats-implicit-defaults-test
+name: cats-git-config-project-test
 
 defaults:
   source: github
