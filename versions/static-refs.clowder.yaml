@@ -1,10 +1,11 @@
 name: cats-static-refs-test
 
+protocol: https
+
 defaults:
   branch: master
   remote: origin
   source: github
-  protocol: https
 
 sources:
   github:

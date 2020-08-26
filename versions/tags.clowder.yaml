@@ -1,10 +1,11 @@
 name: cats-tags-test
 
+protocol: https
+
 defaults:
   tag: v0.01
   remote: origin
   source: github
-  protocol: https
 
 sources:
   github:

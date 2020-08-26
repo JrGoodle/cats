@@ -1,8 +1,9 @@
 name: cats-lfs-false-test
 
+protocol: https
+
 defaults:
   source: github
-  protocol: https
 
 sources:
   github:

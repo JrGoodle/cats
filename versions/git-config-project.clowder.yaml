@@ -1,8 +1,9 @@
 name: cats-git-config-project-test
 
+protocol: https
+
 defaults:
   source: github
-  protocol: https
 
 sources:
   github:

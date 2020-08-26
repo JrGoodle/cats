@@ -1,8 +1,9 @@
 name: cats-git-config-defaults-test
 
+protocol: https
+
 defaults:
   source: github
-  protocol: https
   git:
     config:
       alias.something: "!echo \"Run 'git something' alias installed via clowder\"; touch something"

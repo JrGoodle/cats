@@ -1,9 +1,10 @@
 name: cats-herd-existing-remote-branch-test
 
+protocol: https
+
 defaults:
   branch: test-herd-existing-remote-branch
   remote: origin
-  protocol: https
   source: github
 
 sources:

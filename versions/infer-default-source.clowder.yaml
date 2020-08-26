@@ -1,7 +1,6 @@
 name: cats-infer-default-source
 
-defaults:
-  protocol: https
+protocol: https
 
 sources:
   github:
