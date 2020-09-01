@@ -12,17 +12,17 @@ sources:
     url: github.com
 
 clowder:
-  - name: jrgoodle/mu
+  - name: JrGoodle/mu
     branch: knead
     groups: [cats]
-  - name: jrgoodle/duke
+  - name: JrGoodle/duke
     branch: purr
     groups: [cats]
-  - name: jrgoodle/kit
+  - name: JrGoodle/kit
     groups: [black-cats]
-  - name: jrgoodle/kishka
+  - name: JrGoodle/kishka
     groups: [black-cats]
-  - name: jrgoodle/june
+  - name: JrGoodle/june
     groups: [black-cats]
-  - name: jrgoodle/sasha
+  - name: JrGoodle/sasha
     groups: [black-cats]

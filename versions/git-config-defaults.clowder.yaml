@@ -13,31 +13,31 @@ sources:
     url: github.com
 
 clowder:
-  - name: jrgoodle/mu
+  - name: JrGoodle/mu
     branch: knead
     groups: [cats]
     git:
       config:
         alias.something: null
-  - name: jrgoodle/duke
+  - name: JrGoodle/duke
     branch: purr
     groups: [cats]
     git:
       config:
         alias.something-else: "!echo \"Run 'git something-else' alias installed via clowder\"; touch something-else"
-  - name: jrgoodle/kit
+  - name: JrGoodle/kit
     path: black-cats/kit
     groups: [black-cats]
     git:
       config:
         alias.something: null
         alias.something-else: "!echo \"Run 'git something-else' alias installed via clowder\"; touch something-else"
-  - name: jrgoodle/kishka
+  - name: JrGoodle/kishka
     path: black-cats/kishka
     groups: [black-cats]
-  - name: jrgoodle/june
+  - name: JrGoodle/june
     path: black-cats/june
     groups: [black-cats]
-  - name: jrgoodle/sasha
+  - name: JrGoodle/sasha
     path: black-cats/sasha
     groups: [black-cats]

@@ -12,37 +12,37 @@ sources:
     url: github.com
 
 clowder:
-  - name: jrgoodle/duke
+  - name: JrGoodle/duke
     path: duke
     commit: 7083e8840e1bb972b7664cfa20bbd7a25f004018
     remote: origin
     source: github
     groups: [cats]
-  - name: jrgoodle/mu
+  - name: JrGoodle/mu
     path: mu
     commit: cddce39214a1ae20266d9ee36966de67438625d1
     remote: origin
     source: github
     groups: [cats]
-  - name: jrgoodle/june
+  - name: JrGoodle/june
     path: black-cats/june
     commit: b6e1316cc62cb2ba18fa982fc3d67ef4408c8bfd
     remote: origin
     source: github
     groups: [black-cats]
-  - name: jrgoodle/kishka
+  - name: JrGoodle/kishka
     path: black-cats/kishka
     commit: d185e3bff9eaaf6e146d4e09165276cd5c9f31c8
     remote: origin
     source: github
     groups: [black-cats]
-  - name: jrgoodle/kit
+  - name: JrGoodle/kit
     path: black-cats/kit
     commit: da5c3d32ec2c00aba4a9f7d822cce2c727f7f5dd
     remote: origin
     source: github
     groups: [black-cats]
-  - name: jrgoodle/sasha
+  - name: JrGoodle/sasha
     path: black-cats/sasha
     commit: 775979e0b1a7f753131bf16a4794c851c67108d8
     remote: origin
