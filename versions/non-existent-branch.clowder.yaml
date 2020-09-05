@@ -1,22 +1,14 @@
-name: cats-herd-no-remote-branch-test
+name: cats-non-existent-branch
 
 protocol: https
 
 defaults:
-  branch: test-herd-no-remote-branch
-  remote: origin
-  source: github
-
-sources:
-  github:
-    url: github.com
+  branch: i-dont-exist
 
 clowder:
   - name: JrGoodle/mu
-    path: mu
     groups: [cats]
   - name: JrGoodle/duke
-    path: duke
     groups: [cats]
   - name: JrGoodle/kit
     path: black-cats/kit
