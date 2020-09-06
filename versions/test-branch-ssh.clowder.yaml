@@ -1,7 +1,5 @@
 name: cats-test-branch
 
-protocol: https
-
 defaults:
   branch: pytest
 

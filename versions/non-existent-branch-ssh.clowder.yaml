@@ -1,9 +1,7 @@
-name: cats-test-branch
-
-protocol: https
+name: cats-non-existent-branch
 
 defaults:
-  branch: pytest
+  branch: i-dont-exist
 
 clowder:
   - name: JrGoodle/mu
