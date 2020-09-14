@@ -1,33 +1,20 @@
-name: cats-git-config-project-test
+name: cats-git-config-project
 
 protocol: https
 
-defaults:
-  source: github
-
-sources:
-  github:
-    url: github.com
-
 clowder:
-  - name: JrGoodle/mu
-    branch: knead
-    groups: [cats]
-    git:
-      config:
-        alias.something: "!echo \"Run 'git something' alias installed via clowder\"; touch something"
-  - name: JrGoodle/duke
-    branch: purr
-    groups: [cats]
-  - name: JrGoodle/kit
-    path: black-cats/kit
-    groups: [black-cats]
-  - name: JrGoodle/kishka
-    path: black-cats/kishka
-    groups: [black-cats]
-  - name: JrGoodle/june
-    path: black-cats/june
-    groups: [black-cats]
-  - name: JrGoodle/sasha
-    path: black-cats/sasha
-    groups: [black-cats]
+  cats:
+    - name: JrGoodle/mu
+      branch: knead
+      git:
+        config:
+          alias.something: "!echo \"Run 'git something' alias installed via clowder\"; touch something"
+    - name: JrGoodle/duke
+      branch: purr
+  black-cats:
+    path: black-cats
+    projects:
+      - JrGoodle/kit
+      - JrGoodle/kishka
+      - JrGoodle/june
+      - JrGoodle/sasha

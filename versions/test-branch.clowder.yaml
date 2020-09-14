@@ -6,19 +6,13 @@ defaults:
   branch: pytest
 
 clowder:
-  - name: JrGoodle/mu
-    groups: [cats]
-  - name: JrGoodle/duke
-    groups: [cats]
-  - name: JrGoodle/kit
-    path: black-cats/kit
-    groups: [black-cats]
-  - name: JrGoodle/kishka
-    path: black-cats/kishka
-    groups: [black-cats]
-  - name: JrGoodle/june
-    path: black-cats/june
-    groups: [black-cats]
-  - name: JrGoodle/sasha
-    path: black-cats/sasha
-    groups: [black-cats]
+  cats:
+    - JrGoodle/mu
+    - JrGoodle/duke
+  black-cats:
+    path: black-cats
+    projects:
+      - JrGoodle/kit
+      - JrGoodle/kishka
+      - JrGoodle/june
+      - JrGoodle/sasha
