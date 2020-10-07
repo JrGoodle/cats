@@ -7,7 +7,7 @@ clowder:
     - name: JrGoodle/mu
       branch: submodules
       git:
-        submodules: update recursive
+        submodules: recursive
     - name: JrGoodle/duke
       branch: purr
   black-cats:
