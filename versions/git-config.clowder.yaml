@@ -8,7 +8,7 @@ clowder:
       branch: knead
       git:
         config:
-          alias.something: "!echo \"Run 'git something' alias installed via clowder\"; touch something"
+          alias.something: "!echo 'Run git something alias installed via clowder'; touch something"
     - name: JrGoodle/duke
       branch: purr
   black-cats:
